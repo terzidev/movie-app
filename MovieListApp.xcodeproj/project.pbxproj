@@ -13,6 +13,12 @@
 		A8F0AEEA27229E35006A4487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F0AEE927229E35006A4487 /* Assets.xcassets */; };
 		A8F0AEED27229E35006A4487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F0AEEC27229E35006A4487 /* Preview Assets.xcassets */; };
 		A8F0AEF027229E35006A4487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F0AEEE27229E35006A4487 /* LaunchScreen.storyboard */; };
+		A8F0AEF827229E60006A4487 /* UIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0AEF727229E60006A4487 /* UIScrollViewController.swift */; };
+		A8F0AEFA27229E8A006A4487 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0AEF927229E8A006A4487 /* TabBarView.swift */; };
+		A8F0AEFC27229EAA006A4487 /* MoviesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0AEFB27229EAA006A4487 /* MoviesContentView.swift */; };
+		A8F0AEFF27229ED4006A4487 /* MoviesOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0AEFE27229ED4006A4487 /* MoviesOverviewView.swift */; };
+		A8F0AF0127229EF8006A4487 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0AF0027229EF8006A4487 /* Movies.swift */; };
+		A8F0AF0327229F1A006A4487 /* MoviesFavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0AF0227229F1A006A4487 /* MoviesFavView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		A8F0AEEC27229E35006A4487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8F0AEEF27229E35006A4487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8F0AEF127229E35006A4487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F0AEF727229E60006A4487 /* UIScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewController.swift; sourceTree = "<group>"; };
+		A8F0AEF927229E8A006A4487 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A8F0AEFB27229EAA006A4487 /* MoviesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesContentView.swift; sourceTree = "<group>"; };
+		A8F0AEFE27229ED4006A4487 /* MoviesOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesOverviewView.swift; sourceTree = "<group>"; };
+		A8F0AF0027229EF8006A4487 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		A8F0AF0227229F1A006A4487 /* MoviesFavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesFavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		A8F0AEE227229E33006A4487 /* MovieListApp */ = {
 			isa = PBXGroup;
 			children = (
+				A8F0AEF727229E60006A4487 /* UIScrollViewController.swift */,
 				A8F0AEE327229E33006A4487 /* AppDelegate.swift */,
 				A8F0AEE527229E33006A4487 /* SceneDelegate.swift */,
 				A8F0AEE727229E33006A4487 /* ContentView.swift */,
+				A8F0AEF927229E8A006A4487 /* TabBarView.swift */,
+				A8F0AEFB27229EAA006A4487 /* MoviesContentView.swift */,
+				A8F0AEFE27229ED4006A4487 /* MoviesOverviewView.swift */,
+				A8F0AF0027229EF8006A4487 /* Movies.swift */,
+				A8F0AF0227229F1A006A4487 /* MoviesFavView.swift */,
 				A8F0AEE927229E35006A4487 /* Assets.xcassets */,
 				A8F0AEEE27229E35006A4487 /* LaunchScreen.storyboard */,
 				A8F0AEF127229E35006A4487 /* Info.plist */,
@@ -146,8 +164,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F0AEE427229E33006A4487 /* AppDelegate.swift in Sources */,
+				A8F0AF0327229F1A006A4487 /* MoviesFavView.swift in Sources */,
 				A8F0AEE627229E33006A4487 /* SceneDelegate.swift in Sources */,
+				A8F0AF0127229EF8006A4487 /* Movies.swift in Sources */,
 				A8F0AEE827229E33006A4487 /* ContentView.swift in Sources */,
+				A8F0AEFA27229E8A006A4487 /* TabBarView.swift in Sources */,
+				A8F0AEF827229E60006A4487 /* UIScrollViewController.swift in Sources */,
+				A8F0AEFF27229ED4006A4487 /* MoviesOverviewView.swift in Sources */,
+				A8F0AEFC27229EAA006A4487 /* MoviesContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
